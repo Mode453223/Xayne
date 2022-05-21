@@ -10,6 +10,7 @@ pipeline {
 	stage('Install') {
 	    steps {
 	       echo 'Installing ..'
+	       echo "Welcome to my world"
 	    }
 	}
         stage('Test') {
